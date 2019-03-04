@@ -13,7 +13,7 @@ def investir(anos, inicial=1000, juros=1.06):
 def comparar(inicial, juros=1.06, corte_por_ano=1820):
 	return(inicial,
 		   cozinhar(anos=10, inicial=inicial, corte_por_ano=corte_por_ano)[-1],
-		   investir(anod=10, inicial=inicial, juros=juros)[-1])
+		   investir(anos=10, inicial=inicial, juros=juros)[-1])
 
 
 if __name__ == '__main__':
